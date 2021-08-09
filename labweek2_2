@@ -1,1 +1,17 @@
+#include<stdio.h>
 
+//จงเขียนโปรแกรมเพื่อรับค่าตัวเลข 2 ตัว แล้วแสดงผลบวก ลบ คูณ หาร ของตัวเลขทั้งสองตัวนั้น โดยใช้ตัวแปรน้อยที่สุด (Level 1)
+
+int main()
+{
+    int a,b,result;
+
+    printf("enter your number \n");
+
+    scanf("%d%d",&a,&b);
+
+    printf("Your answer is %d",a+b);
+
+    return 0;
+
+}
