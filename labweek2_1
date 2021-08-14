@@ -6,15 +6,23 @@ int main()
 {
     int a,b,result;
 
-    printf("enter your number \n");
-
+    printf("enter your number :");
     scanf("%d",&a);
 
+    printf("enter your number :");
     scanf("%d",&b);
 
     result = a+b;
+    printf("Answer after addition is %d \n",result);
 
-    printf("Your answer is %d",result);
+    result = a-b;
+    printf("Answer after subtraction is %d \n",result);
+
+    result = a*b;
+    printf("Answer after multiplication is %d \n",result);
+
+    result = a/b;
+    printf("Answer after division is  %d \n",result);
 
     return 0;
 
