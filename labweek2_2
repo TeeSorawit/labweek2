@@ -4,13 +4,18 @@
 
 int main()
 {
-    int a,b,result;
+    int a,b;
 
-    printf("enter your number \n");
+    printf("enter your number :");
+    scanf("%d",&a);
 
-    scanf("%d%d",&a,&b);
+    printf("enter your number :");
+    scanf("%d",&b);
 
-    printf("Your answer is %d",a+b);
+    printf("Your answer is %d \n",a+b);
+    printf("Your answer is %d \n",a-b);
+    printf("Your answer is %d \n",a*b);
+    printf("Your answer is %d \n",a/b);
 
     return 0;
 
